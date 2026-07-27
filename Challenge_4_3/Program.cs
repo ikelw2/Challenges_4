@@ -17,6 +17,8 @@ while (true)
 
 
 
+
+
     // accept user input to test character array reversal function
     Console.Write("Step 1. Enter a string: ");
     string inputString = Console.ReadLine();
@@ -26,6 +28,8 @@ while (true)
     // run character array reversal function and print output
     char[] r = ReverseCharArray(s); // <<<-------------------------- SCROLL DOWN FOR FUNCTION
     Console.WriteLine($"Output: r = [{string.Join(", ", r)}]");
+
+
 
 
 
@@ -40,6 +44,7 @@ while (true)
     Console.WriteLine("-----------------------------------------------------");
 }
 Console.WriteLine();
+
 
 
 

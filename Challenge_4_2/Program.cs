@@ -1,8 +1,4 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-
-Console.WriteLine("Challenge 4_2 - Divisible by 2 and 3 return product, otherwise return sum of two numbers");
-
-
+﻿Console.WriteLine("Challenge 4_2 - Divisible by 2 and 3 return product, otherwise return sum of two numbers");
 // 
 // 2.Divisible by 2 or 3
 // 
@@ -15,13 +11,14 @@ Console.WriteLine("Challenge 4_2 - Divisible by 2 and 3 return product, otherwis
 // DivisibleBy2Or3(2, 90) → 180
 // DivisibleBy2Or3(7, 12) → 19
 // 
-
 while (true)
 {
 
 
 
 
+
+    // calculate random input
     Random random = new Random();
     int upperPowerOfTen = random.Next(1, 10);
     int highLimit = (int)Math.Pow(10, upperPowerOfTen);
@@ -31,11 +28,14 @@ while (true)
     Console.WriteLine($"DivisibleBy2Or3({15}, {30}) --> {DivisibleBy2Or3(15, 30)}");
     Console.WriteLine($"DivisibleBy2Or3({2}, {90}) --> {DivisibleBy2Or3(2, 90)}");
     Console.WriteLine($"DivisibleBy2Or3({7}, {12}) --> {DivisibleBy2Or3(7, 12)}");
+    // run the function (to see implementation of function scroll down)
     Console.WriteLine($"Random Test Numbers:\nDivisibleBy2Or3({randomPosNumber1}, {randomPosNumber2}) --> {DivisibleBy2Or3(randomPosNumber1, randomPosNumber2)}");
 
 
 
 
+
+    // ask if user wants to quit or continue again...
     Console.Write("\nEnter Q to quit or press ENTER to continue.");
     bool userWantsToQuit = (Console.ReadLine().Trim().Equals("q", StringComparison.OrdinalIgnoreCase) == true); // if user enters 'q' or 'Q'
     if (userWantsToQuit == true)
@@ -45,6 +45,8 @@ while (true)
     Console.WriteLine("-----------------------------------------------------");
 }
 Console.WriteLine();
+
+
 
 
 
