@@ -1,6 +1,6 @@
 ﻿using static System.Runtime.InteropServices.JavaScript.JSType;
 
-Console.WriteLine("Challenge 4_1 - determine if positive integer contains digit 3");
+Console.WriteLine("Challenge 4_2 - Divisible by 2 and 3 return product, otherwise return sum of two numbers");
 
 
 // 

@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Challenges_4_1/Challenges_4_1.csproj" />
   <Project Path="Challenge_4_2/Challenge_4_2.csproj" />
+  <Project Path="Challenge_4_3/Challenge_4_3.csproj" />
 </Solution>
